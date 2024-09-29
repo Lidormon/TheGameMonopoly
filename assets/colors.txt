@@ -1,0 +1,11 @@
+# Syntax:
+# [color-name]: [red] [green] [blue]
+
+brown: 149 84 54
+light-blue: 170 224 255
+pink: 217 58 150
+orange: 247 148 29
+red: 255 0 0
+yellow: 255 255 0
+green: 0 255 0
+blue: 0 0 255

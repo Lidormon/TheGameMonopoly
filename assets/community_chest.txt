@@ -1,0 +1,23 @@
+# Syntax:
+# [type]: [type-arg] [name]
+# The types are:
+# jail-free(no arguments) - get out of jail free card
+# profit(argument: money) - a card that gives you money
+# goto(argument: board tile/square index) - a card that tells you to go to a square
+
+goto: 0 Advance to Go (Collect $400)
+goto: 5 Take a trip to Reading Railroad – If you pass Go collect $200
+goto: 39 Take a walk on the Boardwalk – Advance token to Boardwalk
+goto: 24 Advance to Illinois Ave. – If you pass Go, collect $200
+goto: 11 Advance to St. Charles Place – If you pass Go, collect $200
+
+profit: 50 Bank pays you dividend of $50
+profit: 50 Your bycicle has been stolen, Collect $50 in insurance
+profit: 100 After repairing and reselling a propery you turn a profit of $100
+profit: 150 Your building loan matures – Collect $150
+profit: 200 You get a letter from your accountant – Collect $200 in tax returns
+
+jail-free: Get out of Jail Free – This card may be kept until needed or traded
+jail-free: Get out of Jail Free – This card may be kept until needed or traded
+jail-free: Get out of Jail Free – This card may be kept until needed or traded
+jail-free: Get out of Jail Free – This card may be kept until needed or traded

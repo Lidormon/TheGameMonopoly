@@ -1,0 +1,68 @@
+# Syntax
+# [type]: [arg-list] [name]
+# Types:
+# property(arg-list: color price rent house-price house-rent hotel-rent)
+#   - a property on the board.
+# railway(no args) - a railway tile
+# company(no args) - water company and electrical company
+# tax(arg-list: taxAmount) - a tax tile
+# chance(no args) - a 'chance' tile
+# community(no args) - a 'community chest' tile
+#
+# Notes:
+# - The amount of spaces MUST be a multiple of 4!
+# - The corners(Go, Jail, Parking, Go To Jail) are generated based on the
+# amount of spaces on the board.
+# - Values taken from a real monopoly board
+#
+# Warnings:
+# - The board must be square and so the distance between the corners must be equal
+# - The colors for properties must be the colors from color.txt
+
+# ========================= Bottom Row =========================
+# Go Space
+property: brown 60 2 50 15 250 Mediter-ranean Avenue
+community: Community Chest
+property: brown 60 4 50 30 450 Baltic Avenue
+tax: 200 Income Tax
+railway: Reading Railroad
+property: light-blue 100 6 50 40 550 Oriental Avenue
+chance: Chance
+property: light-blue 100 6 50 40 550 Vermont Avenue
+property: light-blue 120 8 50 50 600 Connecticut Avenue
+
+# ========================= Left Column =========================
+# Jail Space
+property: pink 140 10 100 60 750 St. Charles Place
+company: Electric Company
+property: pink 140 10 100 60 750 States Avenue
+property: pink 160 12 100 70 900 Virginia Avenue
+railway: Pennsylvania Railroad
+property: orange 180 14 100 90 950 St. James Place
+community: Community Chest
+property: orange 180 14 100 90 950 Tennessee Avenue
+property: orange 200 16 100 100 1000 New York Avenue
+
+# ========================= Top Row =========================
+# Free Parking Space
+property: red 220 18 150 110 1050 Kentucky Avenue
+chance: Chance
+property: red 220 18 150 110 1050 Indiana Avenue
+property: red 240 20 150 120 1100 Illinois Avenue
+railway: B. & O. Railroad
+property: yellow 260 22 150 130 1150 Atlantic Avenue
+property: yellow 260 22 150 130 1150 Ventnor Avenue
+company: Water Works
+property: yellow 280 24 150 130 1200 Marvin Gardens
+
+# ========================= Right Column =========================
+# Go To Jail Space
+property: green 300 26 200 140 1275 Marvin Gardens
+property: green 300 26 200 140 1275 North Carolina Avenue
+community: Community Chest
+property: green 320 28 200 150 1400 Pennsylvania Avenue
+railway: Short Line
+chance: Chance
+property: blue 350 35 200 175 1750 Park Place
+tax: 100 Luxury Tax
+property: blue 400 50 200 200 2000 Boardwalk
