@@ -1,5 +1,16 @@
 # TheGameMonopoly
 
+Project Instructions:
+
+1. Download and open QT Creator
+2. Go to File -> Open File or Project
+3. Select the project you downloaded from my Git
+4. Open the file "monopoly.pro"
+5. Click on the "Configure Project" button
+6. Click on "Project" on the left side of the screen and then on "Run"
+7. Go to "Working Directory" and change the folder location to the folder of the project where you opened it from
+8. In the bottom left, click the green triangle to start the game
+
 This project implements a simplified version of the classic board game Monopoly using QT GUI. The game includes all key components such as players, assets (properties), and game tiles, as well as handling rules and interactions between players. It is designed to simulate a competitive Monopoly game experience with a focus on properties, player management, and error handling.
 
 Project Structure
